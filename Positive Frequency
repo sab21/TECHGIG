@@ -1,0 +1,12 @@
+sample <- c(25,3,15,95)
+ 
+sum <- 0
+
+for(i in 1:(length(sample)-1))
+
+  {
+  x <- sample[i+1]-sample[i];
+if(x>0){sum <- sum+x}
+}
+sum
+
